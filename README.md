@@ -19,7 +19,7 @@ This repo exists so I can:
 
 ## 🚀 Running the Projects
 
-To try out any of the projects here, just make sure you have **Godot Engine** installed — ideally the latest version (Godot 3.x or 4.x).  
+To try out any of the projects here, just make sure you have **Godot Engine** installed — ideally the latest version (Godot 4.x).  
 This repository's projects are primarily developed using Godot and are fully compatible with its environment.
 
 ---
