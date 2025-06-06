@@ -17,7 +17,7 @@ Este repositório existe para que eu possa:
 
 ## 🚀 Rodando os Projetos
 
-Para tentar qualquer um dos projetos aqui, basta garantir que você tenha o **Godot Engine** instalado — idealmente a versão mais recente (Godot 3.x ou 4.x).  
+Para tentar qualquer um dos projetos aqui, basta garantir que você tenha o **Godot Engine** instalado — idealmente a versão mais recente (Godot 4.x).  
 Os projetos deste repositório foram desenvolvidos principalmente usando Godot e são totalmente compatíveis com seu ambiente.
 
 ---
