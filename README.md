@@ -1,6 +1,6 @@
 # 🎮 Godot Grab Bag
 
-[Prefer to read in Portuguese? 🇧🇷](README.ptbr.md)
+[Prefere ler em Português? 🇧🇷](README.ptbr.md)
 
 Welcome to my Godot Grab Bag — a collection of everything I'm learning about Godot, from small exercises to mini projects.
 
