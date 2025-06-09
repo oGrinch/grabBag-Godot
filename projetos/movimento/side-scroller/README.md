@@ -5,12 +5,15 @@ Ideal para jogos de plataforma, mas ainda cru — sem animações ou refinamento
 
 ## 🎮 Descrição
 
-O jogador pode se mover **para a esquerda e direita** usando as teclas direcionais, além de pular com a tecla de cima (`ui_up`).  
+O jogador pode se mover **para a esquerda e direita** usando as teclas direcionais, além de **conseguir pular** 
+com a tecla direcional para cima (`ui_up`).  
+
 A gravidade mantém o personagem no chão, e a fricção garante uma desaceleração suave ao soltar as teclas.
 
-O personagem respeita as colisões físicas do mapa: não atravessa paredes, nem flutua no vazio — desde que o chão e as bordas estejam devidamente configurados.
+E desde que o chão e as bordas estejam devidamente configurados, o personagem respeitará as colisões, se movendo apenas
+na área delimitada, e pisando firme no chãi.
 
-Não há animações ou firulas. É código limpo, direto ao ponto, para quem quer aprender ou testar o essencial.
+Não há animações ou outras trivialidades. É código limpo, direto ao ponto, apenas para fins essenciais de imediato.
 
 ## 🧠 Tecnologias usadas
 
