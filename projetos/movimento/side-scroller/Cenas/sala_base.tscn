@@ -1,0 +1,54 @@
+[gd_scene load_steps=5 format=3 uid="uid://bfcqknj5j25y2"]
+
+[ext_resource type="Texture2D" uid="uid://dm3bayv5dqvk" path="res://Tela/128 x 72.png" id="1_0ha0t"]
+[ext_resource type="Script" path="res://Cenas/sala_base.gd" id="1_ptjwy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fdihc"]
+size = Vector2(1150, 29.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_65h7p"]
+size = Vector2(4, 655)
+
+[node name="SalaBase" type="Node2D"]
+script = ExtResource("1_ptjwy")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1154.75, 311)
+scale = Vector2(0.0820301, 10.1532)
+texture = ExtResource("1_0ha0t")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(2, 303.249)
+scale = Vector2(0.078125, 10.0726)
+texture = ExtResource("1_0ha0t")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(572.75, 3.93733)
+scale = Vector2(9.01953, 0.385075)
+texture = ExtResource("1_0ha0t")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(579, 595.751)
+scale = Vector2(9.01563, 1.55643)
+texture = ExtResource("1_0ha0t")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(577, 4.5)
+shape = SubResource("RectangleShape2D_fdihc")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+light_mask = 3
+visibility_layer = 3
+position = Vector2(579, 562.75)
+shape = SubResource("RectangleShape2D_fdihc")
+debug_color = Color(0.976762, 0, 0.409361, 0.42)
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(4, 321)
+shape = SubResource("RectangleShape2D_65h7p")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1152, 321)
+shape = SubResource("RectangleShape2D_65h7p")
