@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cfmmvh51sbxx4"]
+
+[ext_resource type="PackedScene" uid="uid://bfcqknj5j25y2" path="res://Cenas/sala_base.tscn" id="1_881dm"]
+[ext_resource type="PackedScene" uid="uid://ckj00hhk1kyrc" path="res://Cenas/player.tscn" id="2_hdjkx"]
+
+[node name="World" type="Node2D"]
+
+[node name="SalaBase" parent="." instance=ExtResource("1_881dm")]
+
+[node name="Player" parent="." instance=ExtResource("2_hdjkx")]
+position = Vector2(585, 598)
+collision_layer = 1
+collision_mask = 1
