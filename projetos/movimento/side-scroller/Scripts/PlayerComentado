@@ -1,0 +1,29 @@
+# Utiliza o nó CharacterBody2D.
+extends CharacterBody2D
+
+# Utiliza as mesmas constantes do movimento básico,
+# porém adiciona gravidade e velocidade de pulo.
+# Diferentes valores alteram a física do personagem
+# em um valor equivalente.
+const MAX_SPEED = 500.0
+const FRICTION = 10000.0
+const JUMP_VELOCITY = -800.0
+const GRAVITY = 2000.0
+
+# Utiliza um método diferente já que não temos vetores
+# nas quatro direções como na anterior, e é necessário
+# aplicar gravidade no salto.
+func _physics_process(delta: float) -> void:
+	var dir = Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left")
+	velocity.x = dir * MAX_SPEED if dir else move_toward(velocity.x, 0, FRICTION * delta)
+
+	# Aplica a gravidade à todo o minuto enquanto a
+	# função de processar física estiver em execução.
+	velocity.y += GRAVITY * delta
+
+	Adiciona a função de salto, se movendo para cima.
+	if Input.is_action_just_pressed("ui_up") and is_on_floor():
+		velocity.y = JUMP_VELOCITY
+	
+	# Aplica física e colisão.
+	move_and_slide()
