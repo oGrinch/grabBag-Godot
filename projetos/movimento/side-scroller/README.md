@@ -1,7 +1,5 @@
 # Movimento lateral básico (side-scroller) em Godot 4.
 
----
-
 Demonstra movimentação básica de personagem 2D em **side-scroller**, usando `CharacterBody2D`, com fricção, gravidade e pulo.  
 Ideal para jogos de plataforma, mas ainda cru — sem animações ou refinamentos visuais. O código é simples, direto, e comentado com carinho.
 
