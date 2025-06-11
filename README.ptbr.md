@@ -29,6 +29,7 @@ Aqui estão algumas coisas que eu já construí ou estou atualmente trabalhando:
 - Movimento básico - Projeto 2D simples, que lida com movimento básico e física para colisões
 - - [View Code](projetos/movimento/basico)
 - Side-scroller básico - Opera da mesma forma do projeto acima, mas também lida com salto e gravidade
+- - [View Code](projetos/movimento/side-scroller)
 - - - (Mais chegando!) 
 
 ---
